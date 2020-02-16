@@ -1,0 +1,71 @@
+.barrita {
+    display: flex;
+    padding: 1.5rem 1rem 1.5rem 1.5rem;
+}
+
+.barrita ul {
+    align-items: stretch;
+    background: #f33827;
+    margin-bottom: 0;
+    transition-duration: .5s;
+    transition-property: background-color;
+    transition-timing-function: ease-in-out;
+    width: 100%;
+}
+
+.barrita .hover {
+    background-color: #d0f29b;
+    transition-duration: .25s;
+    transition-property: background-color;
+    transition-timing-function: ease-in-out;
+}
+
+.barrita-placeholder {
+    list-style: none;
+}
+
+.hidden {
+    display: none;
+}
+
+header {
+    background: #aa6699;
+}
+
+header > figure {
+    margin: 20px 10px;
+}
+
+header > figure img {
+    background: white;
+    height: 90px;
+    width: 100%;
+}
+
+main {
+    background: #a6d9d9;
+}
+
+nav {
+    background: #f2a03d;
+    margin-left: -15px;
+    margin-right: -15px;
+}
+
+section.col-9 {
+    padding: 0 1rem 0 0;
+}
+
+section li {
+    background: #f28d8d;
+    flex-basis: 30%;
+    flex-grow: 1;
+    list-style: none;
+    margin: .75rem;
+    min-height: 200px;
+}
+
+section ul {
+    margin: .75rem 0;
+    padding: 0;
+}
