@@ -39,12 +39,12 @@ $sub_menu = array(
 </head>
 <body>
 <div class="container">
-    <header class="row d-flex">
+    <header class="row d-flex cabecera">
         <figure class="col-4">
-            <img src="" alt="Logo"/>
+            <img src="" alt="Logo" class="logo"/>
         </figure>
     </header>
-    <nav class="navbar navbar-expand-lg navbar-light">
+    <nav class="navbar navbar-expand-lg navbar-light menu-items">
         <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav">
                 <li class="nav-item active">
